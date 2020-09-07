@@ -1,0 +1,22 @@
+[
+    {
+        "path": "menu/add",
+        "lambda": "menu_add",
+        "method": "POST"
+    },
+    {
+        "path": "menu/remove",
+        "lambda": "menu_remove",
+        "method": "POST"
+    },
+    {
+        "path": "menu/filterby/attribute",
+        "lambda": "menu_filter_by_att",
+        "method": "GET"
+    },
+    {
+        "path": "menu/filterby/user",
+        "lambda": "menu_filter_by_user",
+        "method": "GET"
+    }
+]
